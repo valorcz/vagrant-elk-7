@@ -1,0 +1,4 @@
+
+# Ignore all the temporary Vagrant files
+.vagrant
+
