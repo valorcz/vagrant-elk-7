@@ -113,3 +113,6 @@ elasticsearch.password: "test"
 # Specifies locale to be used for all localizable strings, dates and number formats.
 # Supported languages are the following: English - en , by default , Chinese - zh-CN .
 #i18n.locale: "en"
+
+# WARNING: This shouldn't be static, but it's just for our purposes
+xpack.security.encryptionKey: "h8SzT3ipaem8SkjAFcTrTdZjN7Gpp1LlLP4nqwwQ"
