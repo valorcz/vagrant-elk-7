@@ -21,3 +21,11 @@ sudo install -o root -g elasticsearch /vagrant/config/kibana.yml /etc/kibana/kib
 
 sudo systemctl start elasticsearch.service
 sudo systemctl start kibana.service
+
+# Announce the URL where Kibana is available now
+echo "***************************************************************************"
+echo " Congratulations! Your ELK instance is running at the following URLs."
+echo "    Kibana:        http://localhost:5601/"
+echo "    ElasticSearch: http://localhost:9200/"
+echo "***************************************************************************"
+
